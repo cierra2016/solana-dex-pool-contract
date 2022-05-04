@@ -1,6 +1,6 @@
 import * as anchor from "@project-serum/anchor";
 import { Program } from "@project-serum/anchor";
-import { Ammv2 } from "../target/types/ammv2";
+import { Pool } from "../target/types/pool";
 
 import { assert } from "chai";
 import * as token from "@solana/spl-token";
@@ -25,14 +25,14 @@ interface LPProvider {
   poolAta: web3.PublicKey
 }
 
-describe("ammv2", () => {
+describe("pool", () => {
   // Configure the client to use the local cluster.
     // Configure the client to use the local cluster.
     let provider = anchor.Provider.env();
     let connection = provider.connection;
     anchor.setProvider(provider);
   
-    const program = anchor.workspace.Ammv2 as Program<Ammv2>;
+    const program = anchor.workspace.Pool as Program<Pool>;
 
     let pool: Pool; // async describe in chai doesnt play nice :| so we pass this var around
     let n_decimals = 9

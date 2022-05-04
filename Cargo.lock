@@ -23,15 +23,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ammv2"
-version = "0.1.0"
-dependencies = [
- "anchor-lang",
- "anchor-spl",
- "spl-token",
-]
-
-[[package]]
 name = "anchor-attribute-access-control"
 version = "0.22.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -873,6 +864,15 @@ dependencies = [
  "redox_syscall",
  "smallvec",
  "windows-sys",
+]
+
+[[package]]
+name = "pool"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "spl-token",
 ]
 
 [[package]]

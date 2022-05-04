@@ -1,12 +1,12 @@
 [package]
-name = "ammv2"
+name = "pool"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2018"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "ammv2"
+name = "pool"
 
 [features]
 no-entrypoint = []

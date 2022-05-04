@@ -1,7 +1,4 @@
-# Uniswap V2 AMM implemented in Anchor
-
-- `programs/ammv2/src/draft.rs`: outline of program with comments -- drafted before implementation 
-
+# Anchor Pool
 ## Supported Instructions 
 
 - `programs/ammv2/src/`
