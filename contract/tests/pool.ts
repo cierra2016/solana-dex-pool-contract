@@ -39,7 +39,7 @@ describe("pool", () => {
 
     it("initializes a new pool", async () => {
       let auth = web3.Keypair.generate();
-      let sig = await connection.requestAirdrop(auth.publicKey, 100 * web3.LAMPORTS_PER_SOL);
+      let sig = await connection.requestAirdrop(auth.publicKey, 2 * web3.LAMPORTS_PER_SOL);
       await connection.confirmTransaction(sig);
     
       let mint0 = await token.createMint(

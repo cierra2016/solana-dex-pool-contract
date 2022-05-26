@@ -6,7 +6,7 @@ pub mod instructions;
 
 use instructions::*;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("VmxBkH2i5Rx5LXeXvDyPMrKDzejwQzbor63jgKiVJoa");
 
 #[program]
 pub mod pool {
